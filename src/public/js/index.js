@@ -106,6 +106,9 @@ document.addEventListener('submit', e => {
 $button.addEventListener('click', e => initializeLocator());
 
 /**
-  * PANORÁMICA Y ZOOM DESACTIVADOS CON LA OPCIÓN DE LOCALIZACIÓN 'WATCH: TRUE'. VER:
-  * https://github.com/Leaflet/Leaflet/issues/5128
-  */
+ * MEJORAR EL INTERVALO DE UBICACIÓN DE LEAFLET. VER:
+ * https://gis.stackexchange.com/questions/245132/improve-leaflet-location-interval
+ * 
+ * PANORÁMICA Y ZOOM DESACTIVADOS CON LA OPCIÓN DE LOCALIZACIÓN 'WATCH: TRUE'. VER:
+ * https://github.com/Leaflet/Leaflet/issues/5128
+ */
