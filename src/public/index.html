@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" class="notranslate" translate="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="google" content="notranslate" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Display Track & Navigate</title>
+</head>
+
+<body>
+    <form class="uploader-form">
+        <input type="file" name="track">
+        <input type="submit" value="Show Track in Map">
+    </form>
+
+    <div class="response none"></div>
+
+    <div id="map"></div>
+
+    <button>Start Navigate</button>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.5.1/gpx.min.js"></script>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    background-color: #1D2125;
+}
+
+button {
+    display: block;
+    height: 6%;
+    border-radius: 10px;
+    margin: 0.3rem;
+    background-color: #2196f3;
+    color: #fff;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.none {
+    opacity: 0;
+}
+
+.response {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    background-color: #ffffffa1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 3rem;
+}
+
+.uploader-form {
+    height: 12vh;
+    color: white;
+}
+
+.uploader-form input {
+    display: block;
+    margin: 1rem;
+    border-radius: 5px;
+}
